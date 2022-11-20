@@ -1,0 +1,10 @@
+@import "src/styles/mixins/inputs/inputs";
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px;
+
+  @include dashed-input;
+}

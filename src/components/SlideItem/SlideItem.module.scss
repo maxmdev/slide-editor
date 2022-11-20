@@ -1,0 +1,24 @@
+@import "src/styles/mixins/inputs/inputs";
+
+.title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 4px;
+
+  @include dashed-input;
+}
+
+.description {
+  font-size: 14px;
+  text-align: center;
+  padding: 4px;
+
+  @include dashed-input;
+}
+
+.dragItem {
+  position: absolute;
+  top: 10px;
+  left: 5px;
+}
